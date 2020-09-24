@@ -195,3 +195,4 @@ border-radius: 10px;
 /*Misc*/
 .cardBox.cardBox-bottompadded {margin-top: 0 !important; margin-bottom: 0 !important;}
 .verticalSection.section0.emby-scroller-container {background-color: rgba(0, 0, 0, 0.2); margin-bottom: 1.8em; margin-top: 1.8em;}
+@media all and (max-width: 100em){.verticalSection.section0.emby-scroller-container {margin-top: 3.8em !important;}}

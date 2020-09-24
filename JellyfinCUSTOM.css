@@ -10,7 +10,7 @@
 body{font-family:'Netflix Sans Regular'}
 h1{font-family: 'Netflix Sans Bold'; font-size: 35px;}
 h3{font-family: 'Netflix Sans Regular';}
-.navMenuOptionText{font-family: 'Netflix Sans Thin'; font-size: 20px;}
+.navMenuOptionText{font-family: 'Netflix Sans Thin'; font-size: 14px;}
 .sidebarHeader{font-family: 'Netflix Sans Bold'; font-size: 22px; }
 .itemAction.textActionButton{font-family: 'Netflix Sans Thin'; font-size: 18.5px; }
 .inputLabel.inputLabelUnfocused{font-size: 20px; font-family: 'Netflix Sans Thin';}
@@ -140,7 +140,7 @@ background: linear-gradient(140deg,#aa5cc3,#00a4dc);}
 }
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
 border-radius: 10px;
 }
 .section0 .overflowBackdropCard,
@@ -191,3 +191,7 @@ border-radius: 10px;
 .listItem-border {border-color: rgba(255, 255, 255, 0.22) !important;}
 .backgroundContainer {background-color: #101010;}
 .raised {background: #00a4dc;}
+
+/*Misc*/
+.cardBox.cardBox-bottompadded {margin-top: 0 !important; margin-bottom: 0 !important;}
+.verticalSection.section0.emby-scroller-container {background-color: rgba(0, 0, 0, 0.2); margin-bottom: 1.8em; margin-top: 1.8em;}

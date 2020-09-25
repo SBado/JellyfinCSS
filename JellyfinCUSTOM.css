@@ -77,7 +77,7 @@ background: linear-gradient(140deg,#aa5cc3,#00a4dc);}
 }
 @media all and (min-width: 32em) and (max-width: 100em){
     .itemBackdrop::after {background-color: rgba(0, 0, 0, 0.1) !important;}
-    .itemBackdrop {height: 10em !important; background-image: none !important;}
+    .itemBackdrop {height: 11em !important; background-image: none !important;}
 }
 @media all and (max-width: 32em) {
     .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(35%);}
@@ -197,3 +197,5 @@ border-radius: 10px;
 .verticalSection.section0.emby-scroller-container {background-color: rgba(0, 0, 0, 0.2); margin-bottom: 1.8em; margin-top: 1.8em;}
 @media all and (max-width: 100em){.verticalSection.section0.emby-scroller-container {margin-top: 3.8em !important;}}
 @media all and (max-width: 100em){.pageTabContent.is-active {margin-top: 1.8em !important;}}
+@media (max-width: 89.4em) {.detailImageContainer .card.squareCard {top: 35% !important;}}
+@media (min-width: 143.7em) {.detailImageContainer .card.squareCard {top: 43% !important;}}
